@@ -5,7 +5,7 @@
   --background-header: #fafafa;
   --background-tertiary: #eee;
   --text-primary: #111;
-  --text-link: #000;
+  --text-link: #0969da;
   --text-secondary: #222;
   --border-primary: #ccc;
   --font-family-sans-serif: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -18,7 +18,7 @@
     --background-header: #161616;
     --background-tertiary: #222;
     --text-primary: #f1f1f1;
-    --text-link: #fff;
+    --text-link: #58a6ff;
     --text-secondary: #eee;
     --border-primary: #444;
   }
