@@ -1,5 +1,5 @@
 :root {
-  --bckground-primary: #fff;
+  --background-primary: #fff;
   --background-secondary: #f5f5f5;
   --background-header: #fafafa;
   --background-tertiary: #eee;
@@ -12,7 +12,7 @@
 
 @media(prefers-color-scheme: dark) {
   :root {
-    --bckground-primary: #111;
+    --background-primary: #111;
     --background-secondary: #1b1b1b;
     --background-header: #161616;
     --background-tertiary: #222;
