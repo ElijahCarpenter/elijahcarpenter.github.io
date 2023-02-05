@@ -14,9 +14,9 @@ struct ElijahcarpenterGithubIo: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "https://your-website-url.com")!
-    var name = "ElijahcarpenterGithubIo"
-    var description = "A description of ElijahcarpenterGithubIo"
+    var url = URL(string: "https://elijahcarpenter.github.io")!
+    var name = "Elijah Carpenter's Website"
+    var description = "This is my webiste"
     var language: Language { .english }
     var imagePath: Path? { nil }
 }

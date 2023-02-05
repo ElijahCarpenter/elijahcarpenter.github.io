@@ -4,6 +4,32 @@
 *  MIT license, see LICENSE file for details
 */
 
+:root {
+  color-scheme: light dark;
+  --background-primary: #fff;
+  --background-secondary: #f5f5f5;
+  --background-header: #fafafa;
+  --background-tertiary: #eee;
+  --text-primary: #111;
+  --text-link: #0969da;
+  --text-secondary: #222;
+  --border-primary: #ccc;
+  --font-family-sans-serif: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media(prefers-color-scheme: dark) {
+  :root {
+    --background-primary: #111;
+    --background-secondary: #1b1b1b;
+    --background-header: #161616;
+    --background-tertiary: #222;
+    --text-primary: #f1f1f1;
+    --text-link: #58a6ff;
+    --text-secondary: #eee;
+    --border-primary: #444;
+  }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +37,9 @@
 }
 
 body {
-    background: #fff;
-    color: #000;
-    font-family: Helvetica, Arial;
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+    font-family: var(--font-family-sans-serif);
     text-align: center;
 }
 
@@ -26,7 +52,7 @@ body {
 }
 
 header {
-    background-color: #eee;
+    background-color: var(--background-header);
 }
 
 header .wrapper {
@@ -41,7 +67,7 @@ header a {
 
 header .site-name {
     font-size: 1.5em;
-    color: #000;
+    color: var(--text-primary);
     font-weight: bold;
 }
 
@@ -73,7 +99,7 @@ p {
 }
 
 a {
-    color: inherit;
+    color: var(--text-link);
 }
 
 .description {
@@ -84,7 +110,7 @@ a {
     display: block;
     padding: 20px;
     border-radius: 20px;
-    background-color: #eee;
+    background-color: var(--background-secondary);
     margin-bottom: 20px;
 }
 
@@ -108,8 +134,8 @@ a {
 .tag-list li,
 .tag {
     display: inline-block;
-    background-color: #000;
-    color: #ddd;
+    background-color: var(--text-primary);
+    color: var(--background-secondary);
     padding: 4px 6px;
     border-radius: 5px;
     margin-right: 5px;
@@ -141,25 +167,6 @@ a {
 
 footer {
     color: #8a8a8a;
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #222;
-    }
-
-    body,
-    header .site-name {
-        color: #ddd;
-    }
-
-    .item-list > li {
-        background-color: #333;
-    }
-
-    header {
-        background-color: #000;
-    }
 }
 
 @media(max-width: 600px) {
