@@ -30,6 +30,11 @@ body {
   font-family: var(--font-family-sans-serif);
 }
 
+a {
+  color: var(--text-link);
+  text-decoration: underline;
+}
+
 .ec-header {
   background-color: var(--background-header);
 }
