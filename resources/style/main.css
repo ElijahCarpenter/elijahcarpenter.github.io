@@ -37,4 +37,6 @@ a {
 
 .ec-header {
   background-color: var(--background-header);
+  margin: 0;
+  border-bottom: 1px solid var(--border-primary);
 }
