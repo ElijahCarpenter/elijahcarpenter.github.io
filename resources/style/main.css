@@ -25,6 +25,7 @@
 }
 
 body {
+  padding: 0;
   background-color: var(--background-primary);
   color: var(--text-primary);
   font-family: var(--font-family-sans-serif);
