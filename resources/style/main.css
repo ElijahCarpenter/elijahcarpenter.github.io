@@ -11,14 +11,16 @@
 }
 
 @media(prefers-color-scheme: dark) {
-  --bckground-primary: #111;
-  --background-secondary: #1b1b1b;
-  --background-header: #161616;
-  --background-tertiary: #222;
-  --text-primary: #f1f1f1;
-  --text-link: #fff;
-  --text-secondary: #eee;
-  --border-primary: #444;
+  :root {
+    --bckground-primary: #111;
+    --background-secondary: #1b1b1b;
+    --background-header: #161616;
+    --background-tertiary: #222;
+    --text-primary: #f1f1f1;
+    --text-link: #fff;
+    --text-secondary: #eee;
+    --border-primary: #444;
+  }
 }
 
 body {
