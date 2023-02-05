@@ -25,7 +25,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 8px;
   background-color: var(--background-primary);
   color: var(--text-primary);
   font-family: var(--font-family-sans-serif);
@@ -38,6 +38,6 @@ a {
 
 .ec-header {
   background-color: var(--background-header);
-  margin: 0;
+  margin: -8px;
   border-bottom: 1px solid var(--border-primary);
 }
