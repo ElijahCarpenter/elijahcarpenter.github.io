@@ -8,10 +8,11 @@
   --text-link: #0969da;
   --text-secondary: #222;
   --border-primary: #ccc;
-  --font-family-sans-serif: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-sans-serif: -apple-system, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
-@media(prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --background-primary: #111;
     --background-secondary: #1b1b1b;
@@ -40,4 +41,5 @@ a {
   background-color: var(--background-header);
   margin: -8px;
   border-bottom: 1px solid var(--border-primary);
+  padding: 8px;
 }
