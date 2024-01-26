@@ -1,4 +1,4 @@
-import busFleet from './buses.json';
+import busFleet from './buses.json' assert { type: "json" };
 
 
 function inRange(num, min, max) {
