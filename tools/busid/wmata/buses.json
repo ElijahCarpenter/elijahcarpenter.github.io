@@ -1,0 +1,29 @@
+{
+  "buses":[
+    {
+      "make":"New Flyer",
+      "model":"D40LFR",
+      "year":"2006",
+      "lengthFt":40,
+      "lengthM": 12,
+      "totalBuses":117,
+      "totalInService":58,
+      "fuelType":"Diesel",
+      "fleetStart":6101,
+      "fleetEnd":6217
+    },
+        {
+      "make":"New Flyer",
+      "model":"D40LFA",
+      "year":"2008-2009",
+      "lengthFt":42,
+      "lengthM": 13,
+      "totalBuses":161,
+      "totalInService":54,
+      "fuelType":"Diesel-electric hybrid",
+      "fleetStart":6301,
+      "fleetEnd":6461
+    }
+    
+  ]
+}
