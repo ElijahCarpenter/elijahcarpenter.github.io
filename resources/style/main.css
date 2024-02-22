@@ -37,7 +37,7 @@ a {
   text-decoration: underline;
 }
 
-.ec-header {
+.header {
   background-color: var(--background-header);
   margin: -8px;
   border-bottom: 1px solid var(--border-primary);
